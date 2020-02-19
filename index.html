@@ -4,14 +4,29 @@
     <meta charset="utf-8">
     <title></title>
     <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
       body {
         background-image: url(toobad.gif);
         background-repeat: repeat;
-        background-size: 25vmax;
+        background-size: calc(300px + 5vmax) auto;
       }
+      /* #coin {
+        background-image: url(coin.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(-50%,-50%,0);
+        height: calc(200px + 5vmax);
+        width: calc(200px + 5vmax);
+      } */
     </style>
   </head>
   <body>
-    
+    <div id="coin"></div>
   </body>
 </html>
